@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation_Testing_Suite" parallel="false" preserve-order="true">
+
+	<listeners>
+		<listener class-name="com.test.listners.CustomReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.test.listners.SuiteRun" />
+	</listeners>
+
+	<parameter name="reportFileName" value="Test Report"></parameter>
+
+	<!-- FF : Firefox, IE : Internet Explorer, CH : Chrome, SF : Safari -->
+	<parameter name="Browser" value="FF"></parameter>
+	<!-- Above this line do not delete anything -->
+
+
+	<!-- Write your test execution from here -->
+	
+	<test name="Smoke Testing">
+	<parameter name="Browser" value="CH"></parameter>
+	<classes>
+	<class name="com.cenzic.crackme.testscript.UserRegistration"></class>
+	</classes>
+	</test>
+
+
+
+</suite>

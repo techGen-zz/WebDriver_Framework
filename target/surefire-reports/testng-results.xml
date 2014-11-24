@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation_Testing_Suite" duration-ms="18097" started-at="2014-11-24T05:57:40Z" finished-at="2014-11-24T05:57:59Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testing" duration-ms="18097" started-at="2014-11-24T05:57:40Z" finished-at="2014-11-24T05:57:59Z">
+      <class name="com.cenzic.crackme.testscript.UserRegistration">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:com.cenzic.crackme.testscript.UserRegistration@54c0627f]" name="startDriver" is-config="true" duration-ms="11247" started-at="2014-11-24T11:27:40Z" finished-at="2014-11-24T11:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="validRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cenzic.crackme.testscript.UserRegistration@54c0627f]" name="validRegistration" duration-ms="3894" started-at="2014-11-24T11:27:52Z" data-provider="extractData" finished-at="2014-11-24T11:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tarique]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[14/05/1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1111111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistration -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.cenzic.crackme.testscript.UserRegistration@54c0627f]" name="endDriver" is-config="true" duration-ms="2779" started-at="2014-11-24T11:27:56Z" finished-at="2014-11-24T11:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.cenzic.crackme.testscript.UserRegistration -->
+    </test> <!-- Smoke Testing -->
+  </suite> <!-- Automation_Testing_Suite -->
+</testng-results>
